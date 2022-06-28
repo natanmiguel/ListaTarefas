@@ -1,0 +1,33 @@
+
+.form {
+    margin-top: 30px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+.form input[type="text"] {
+    height: 30px;
+    padding: 0 20px;
+    font-size: 15px;
+    min-width: 80%;
+    border: 1px solid #ccc;
+}
+
+.form button[type="submit"] {
+    display: flex;
+    width: 32px;
+    height: 31px;
+    border: none;
+    background: #F15E5E ;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+
+}
+.form button[type="submit"]:hover,  .tarefas li .delete:hover,  .tarefas li .edit:hover  {
+    color: #595757;
+    transition: 500ms;
+  
+}
